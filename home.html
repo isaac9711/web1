@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>main page</title>
-<link rel="stylesheet" type="text/css" href="mainCss.css"/>
+<title>Welcome EasyPortalNET</title>
+<link rel="stylesheet" type="text/css" href="homeCss.css"/>
 </head>
 <body>
-<!--ui object -->
-<div id="wrap">
+<article>
+<div class="layer">
 <span class="content">
-<div id="mainLogo">
-<img src="logo2.png" width="400" height="100" class="c">
+<img src="logo2.png" width="700" height="180">
+</span>
+<span class="blank">
+</span>
 </div>
-<p>#wrap</p>
-<!--header -->
-<div id="header">
-<div class="nav__content">
+</article>
+<!--메뉴-->
+<nav class="nav">
+  <input type="checkbox" class="nav__cb" id="menu-cb"/>
+  <div class="nav__content">
     <ul class="nav__items">
       <li class="nav__item">
         <span class="nav__item-text">
@@ -38,29 +41,7 @@
       </li>
     </ul>
   </div>
-</div>
-<!--//header -->
-<!--container -->
-<div id="container">
-<p>#container</p>
-<!--snb -->
-<div class="snb">
-<p>.snb</p>
-</div>
-<!--//snb -->
-<!--content -->
-<div id="content">
-<p>#content</p>
-</div>
-<!--//content -->
-</div>
-<!--//container -->
-<!--footer -->
-<div id="footer">
-<p>#footer</p>
-</div>
-<!--//footer -->
-</div>
-<!--//ui object -->
+  <label class="nav__btn" for="menu-cb"></label>
+</nav>
 </body>
 </html>
