@@ -49,7 +49,7 @@
   font-size: 14px;
   font-weight: bold;
   padding: 15px 20px;
-  color: #ff0000;
+  color: #00ff00;
   text-transform: uppercase;
 }
 
@@ -82,8 +82,6 @@ div{
 	font-weight:bold
 }
 
-
-
 #wrap{
 	width:auto;
 	margin:0;
@@ -105,49 +103,7 @@ div{
 	border:1px solid #bdbdbd;
 	background:#fff;
 	text-align:center;
-	height:750px;
-}
-
-.contimg{
-	width:550px;
-	height:250px;
-}
-
-
-#contents1{
-	float:left;
-	margin:20px 40px;
-	border:1px solid #bdbdbd;
-	background:#fff;
-	height:300px;
-	width:600px;
-}
-
-#contents2{
-	float:right;
-	margin:20px 40px;
-	border:1px solid #bdbdbd;
-	background:#fff;
-	height:300px;
-	width:600px;
-}
-
-#contents3{
-	float:left;
-	margin:40px 40px;
-	border:1px solid #bdbdbd;
-	background:#fff;
-	height:300px;
-	width:600px;
-}
-
-#contents4{
-	float:right;
-	margin:40px 40px;
-	border:1px solid #bdbdbd;
-	background:#fff;
-	height:300px;
-	width:600px;
+	height:200px;
 }
 
 #footer{
